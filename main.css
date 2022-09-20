@@ -1,0 +1,135 @@
+body {
+    color: dimgray;
+    background-color: beige;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 165, 185);
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header div {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 18px;
+}
+
+#header p {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95rem;
+}
+
+.icon {
+    width: 1.2rem;
+    height: 1rem;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.invert-color {
+    filter: invert(1);
+}
+
+#content {
+    display: flex;
+}
+
+.content__left {
+    width: 30%;
+    margin: 30px;
+}
+
+.content__right {
+    width: 70%;
+    margin: 30px;
+}
+
+.content__left img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.description {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.left-description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.left-description h1 {
+    margin: 0px;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.left-description h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.right-description {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-description p {
+    margin: 0;
+}
+
+.exp {
+    border-top: 2px dotted rgb(231, 165, 185);
+    padding-top: 20px;
+}
+
+.exp * {
+    margin: 0;
+}
+
+.exp h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: rgb(231, 165, 185);
+    margin-bottom: 10px;
+}
+
+.exp h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.exp h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #A9A9A9
+}
+
+.exp ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.margin-top-lg {
+    margin-top: 30px;
+}
